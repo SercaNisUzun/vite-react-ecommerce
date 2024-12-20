@@ -1,0 +1,21 @@
+@import 'variables', 'mixins';
+
+.basketImg {
+    @include thumb
+}
+
+.basketList {
+    @include alignCenter;
+    font-size: 18px;
+    @include border;
+    margin-top: 20px;
+
+    div {
+        width: 25%;
+        @include justifyCenter;
+    }
+
+    div:nth-child(2) {
+        justify-content: flex-start;
+    }
+}

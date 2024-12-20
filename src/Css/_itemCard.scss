@@ -1,0 +1,19 @@
+@import 'variables', 'mixins';
+
+.card {
+    @include alignCenter;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    @include border;
+    margin-bottom: 10px;
+
+    .img {
+        max-height: 75%;
+        max-width: 75%;
+        border-radius: 15px;
+    }
+
+}

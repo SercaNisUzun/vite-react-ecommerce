@@ -1,0 +1,15 @@
+@import 'variables', 'mixins';
+
+.commentCard {
+    @include border;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.commentSide {
+    padding: 10px;
+}
+
+.commentPerson {
+    font-weight: 600;
+}

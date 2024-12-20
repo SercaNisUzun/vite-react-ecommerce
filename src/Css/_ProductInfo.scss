@@ -1,0 +1,18 @@
+@import 'variables', 'mixins';
+
+.infoConteiner {
+    padding: 10px;
+}
+
+.infoH2 {
+    text-align: center;
+}
+
+.infoSpan {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.infoP {
+    font-weight: 100;
+}

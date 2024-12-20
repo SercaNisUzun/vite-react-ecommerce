@@ -1,0 +1,7 @@
+@import 'variables', 'mixins';
+
+.mainCard {
+    width: 100%;
+    @include spaceBn;
+    flex-wrap: wrap;
+}

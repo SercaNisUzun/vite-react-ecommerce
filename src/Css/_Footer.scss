@@ -1,0 +1,25 @@
+@import 'variables', 'mixins';
+
+.flexFooter {
+    @include spaceBn
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.sign {
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.footerSymbol {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.footerAlign {
+    @include fullCenter
+}

@@ -1,0 +1,51 @@
+@import 'variables', 'mixins';
+
+.detailsUp {
+    display: flex;
+}
+
+.imgDetails {
+    width: 50%;
+    @include fullCenter;
+
+    img {
+        max-width: 70%;
+        max-height: 70%;
+    }
+}
+
+.infoDetails {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+}
+
+.infoRateRews {
+    @include spaceBn;
+    align-items: baseline;
+    width: 60%;
+}
+
+.infoPrice {
+    @include alignCenter
+}
+
+.h2 {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.detailsP {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.infoRate {
+    display: flex;
+
+    .infoP {
+        margin-right: 5px;
+    }
+}

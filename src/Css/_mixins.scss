@@ -1,0 +1,46 @@
+@mixin border {
+    border: 2px solid lightgray;
+    border-radius: 15px;
+}
+
+@mixin spaceBn {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@mixin thumb {
+    height: 100px;
+    width: 100px;
+}
+
+@mixin alignCenter {
+    display: flex;
+    align-items: center;
+}
+
+@mixin justifyCenter {
+    display: flex;
+    justify-items: center;
+}
+
+@mixin fullCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin bgPosition {
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin sliderPosition {
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}

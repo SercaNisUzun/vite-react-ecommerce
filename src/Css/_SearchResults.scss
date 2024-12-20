@@ -1,0 +1,17 @@
+@import 'variables', 'mixins';
+
+.cardSearch {
+    @include alignCenter;
+    justify-content: space-between;
+    @include border;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+
+    img {
+        @include thumb
+    }
+
+    div {
+        width: 20%;
+    }
+}
